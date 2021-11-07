@@ -20,12 +20,10 @@ def create_app(config_class=Config):
     CORS(application)
     db.init_app(application)
 
-    from irahorecka.main.routes import main
-    from irahorecka.housing.routes import housing
-    from irahorecka.errors.handlers import errors
+    from websuite.main.routes import main
+    from websuite.errors.handlers import errors
 
     application.register_blueprint(main)
-    application.register_blueprint(housing)
     application.register_blueprint(errors)
 
     return application
