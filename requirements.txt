@@ -1,0 +1,7 @@
+absolufy-imports
+black
+flask
+flask_cors
+flask_sqlalchemy
+pre-commit
+python-dotenv
