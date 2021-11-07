@@ -1,4 +1,4 @@
-# local-web-suite
+# local-websuite
 A local website to host interesting content
 
 ## Goal
